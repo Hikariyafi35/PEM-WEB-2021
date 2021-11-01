@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulir PPDB TAHUN 2020</title>
+<body><fieldset>
+<form action="process.php" method="get">
+<table border="10"align="center">
+    
+    <legend><h1><strong><thead><font size="8"><p style="text-align:center">PPDB JALUR ZONASI TAHUN 2020</font></p></h1></legend></strong></thead>
+    <tr><td>Nomor</td><td colspan="2"><h2>INFO PENDAFTARAN</h2></td></tr>
+    <tr><td>1.</td><td>NISN</td><td><input type="text" name="subject" placeholder="*A11.2020.13333"/></td></tr>
+    <tr><td>2.</td><td>Asal Sekolah</td><td><input type="text" name="subject" placeholder="*SMAN 1 Konoha"/></td></tr>
+    <tr><td>3.</td><td>Tahun Lulus</td><td>*upload foto copy foto ijazah <input type='file' name='foto' />
+        <input type='submit' name='tombol' value="Kirim"> </td></tr>
+    <tr><td></td><td colspan="2"><h2>DATA PESERTA</h2></td></tr>
+    <tr><td>4.</td><td>Nama Lengkap</td><td><input type="text" name="subject" placeholder="*Agus uciha"/></td></tr>
+    <tr><td>5.</td><td>NIK</td><td><input type="text" name="subject" placeholder="*contoh 12534125361667"/></td></tr>
+    <tr><td>6.</td><td>Tanggal Lahir</td><td><input type="date" name="tanggal"/>*upload foto Akte Kelahiran <input type='file' name='foto' />
+        <input type='submit' name='tombol' value='Kirim' /></left></p></td></tr>
+    <tr><td>7.</td><td>Jenis Kelamin</td><td><label><input type="radio" name="jenis_kelamin" value="laki-laki"/> Laki-laki</label>
+        <label><input type="radio" name="jenis_kelamin" value="perempuan"/> Perempuan</label></td></tr>
+    <tr><td>8.</td><td>Alamat</td><td><pre>-Desa/Kel : <input type="text" name="subject" placeholder="*plantaran"/></pre>
+        <pre>-Kecamatan: <input type="text" name="subject" placeholder="*kaliwungu"/></pre>
+        <pre>-Kabupaten: <input type="text" name="subject" placeholder="*Kendal"/></pre>
+        <pre>-Provinsi : <input type="text" name="subject" placeholder="*jawa tengah"/></pre></td></tr>
+    <tr><td>9.</td><td>Email Aktif</td><td><input type="text" name="subject" placeholder="*Akupadamu27@gmail.com"/>
+        <tr><td></td><td colspan="2"><h2>DATA ORANGTUA</h2>*upload foto KK <input type='file' name='foto' />
+            <input type='submit' name='tombol' value='Kirim' /></left></p></td></tr>
+     <tr><td>10.</td><td>Nomor Kartu Keluarga</td><td><input type="text" name="subject" placeholder="*1314255121234"/></p></td></tr>
+     <tr><td>11.</td><td>Nama Ayah Kandung</td><td><input type="text" name="subject" placeholder="*Sucipto uzumaki"/></p></td></tr>
+     <tr><td>12.</td><td><label>Agama</td><td></label>
+        <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+    <tr><td>13.</td><td>Pekerjaan</td><td><input type="text" name="subject" placeholder="*PNS"/></p></td></tr>
+    </select></p></td></tr>
+   <tr><td>14.</td></td><td>Nama Ibu Kandung</td><td><input type="text" name="subject" placeholder="*Sucipto uzumaki"/></p></td></tr>
+     <tr><td>15.</td><td><label>Agama</td><td></label>
+        <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+    <tr><td>16.</td><td>Pekerjaan</td><td><input type="text" name="subject" placeholder="*PNS"/></p></td></tr>
+    <tr><td>17.</td><td>Alamat Orang Tua</td><td><pre>-Desa/Kel : <input type="text" name="subject" placeholder="*plantaran"/></pre>
+        <pre>-Kecamatan: <input type="text" name="subject" placeholder="*kaliwungu"/></pre>
+        <pre>-Kabupaten: <input type="text" name="subject" placeholder="*Kendal"/></pre>
+        <pre>-Provinsi : <input type="text" name="subject" placeholder="*jawa tengah"/></pre></td></tr>
+    </fieldset>
+</table>
+</body>
+</form>
+</html>
