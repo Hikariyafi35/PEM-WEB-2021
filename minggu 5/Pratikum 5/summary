@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>contoh layout dengan elemen semantik</title>
+</head>
+<body style="background-color: silver;">
+ <header style="background-color:  white;">
+    <h1>Belajar Elemen Semantik Di Html</h1>
+
+<article>
+    <h1 style="background-color: aliceblue;">Laptop Terbaik untuk Programmer</h1>
+    <details style="background-color: rgb(122, 224, 255);">
+        <summary style="background-color: darkorange;">Lihat Spesifikasi</summary>
+        Prosesor: Intel Core i9, RAM 32GB, SSD 1TB, HDD 4TB
+        </details>
+    </article>
+    
+
+</body>
+</html>
